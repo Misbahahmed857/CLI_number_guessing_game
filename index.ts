@@ -19,6 +19,8 @@ const answers = await inquirer.prompt([
 // Generate a random number between 1 and 6 using Math.random() and Math.floor()
  let randomNumber = Math.floor(Math.random()* 6 + 1);
 
+ console.log("----Welcome To Number Guessing Game----")
+
  // Check if the user's guess matches the random number
  if(answers.userGuessNumber === randomNumber) {
     console.log("Congratulations! You guessed correctly.")
