@@ -1,0 +1,30 @@
+{
+  "name": "@misbahahmed/project01_cli_number_guessing_game",
+  "version": "1.0.0",
+  "description": "This is a command_line interface(CLI) based number guessing game.",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Misbahahmed857/CLI_number_guessing_game.git"
+  },
+  "author": "Misbah Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Misbahahmed857/CLI_number_guessing_game/issues"
+  },
+  "homepage": "https://github.com/Misbahahmed857/CLI_number_guessing_game#readme",
+  "dependencies": {
+    "inquirer": "^10.0.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
